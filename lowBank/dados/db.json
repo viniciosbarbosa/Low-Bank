@@ -1,0 +1,27 @@
+{
+  "operacaoEfetuadas": [
+    {
+      "nome":"Vinicius",
+      "Banco": 100,
+      "Agencia":3233,
+      "Conta":"3213-3",
+      "valor":150
+
+    },
+    {
+      "nome":"Vinicius",
+      "Banco": 100,
+      "Agencia":3233,
+      "Conta":"3213-3",
+      "valor":150
+
+    },
+    {
+      "nome":"Vinicius",
+      "Banco": 100,
+      "Agencia":3233,
+      "Conta":"3213-3",
+      "valor":150
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import { operacoesAndamento } from './../../models/operacoesAndamento.model';
+import { OperacaoService } from './../../services/operacao.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExtratoComponent implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

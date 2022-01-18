@@ -1,1 +1,37 @@
-<p>nova-transferencia works!</p>
+<section class="container">
+  <form class="formulario" (ngSubmit)="transferencia()" >
+    <h2 class="formulario__titulo">Nova Transferencia</h2>
+
+    <div class="form-field">
+      <label class="form-field__label">Nome</label>
+      <input class="form-field__label" type="text" id="nome" autocomplete="off" [(ngModel)]="nome" name="nome"/>
+    </div>
+
+    <div class="form-field">
+      <label class="form-field__label">Banco</label>
+      <input class="form-field__label" type="number" id="banco" autocomplete="off" [(ngModel)]="banco" name="banco">
+    </div>
+
+    <div class="form-field">
+      <label class="form-field__label">Agencia</label>
+      <input class="form-field__label" type="number" id="agencia" autocomplete="off" [(ngModel)]="agencia" name="agencia">
+    </div>
+
+    <div class="form-field">
+      <label class="form-field__label">Conta</label>
+      <input class="form-field__label" type="text" id="conta" autocomplete="off" [(ngModel)]="conta" name="conta">
+    </div>
+
+    <div class="form-field">
+      <label class="form-field__label">Valor</label>
+      <input class="form-field__label" type="text" id="valor" autocomplete="off" [(ngModel)]="valor" name="valor">
+    </div>
+
+    <div class="botao-wrapper">
+      <button class="botao" type="submit">transferir</button>
+    </div>
+
+  </form>
+</section>
+
+
